@@ -1,0 +1,30 @@
+.form-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.email,
+.name {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+.email input {
+  width: 100%;
+  padding: 7px 10px;
+  border-radius: 8px;
+  background-color: #fff;
+  font-size: 16px;
+}
+
+.name input {
+  width: 100%;
+  padding: 7px 10px;
+  border-radius: 8px;
+  background-color: #fff;
+  font-size: 16px;
+}
+
